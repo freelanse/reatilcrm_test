@@ -1,0 +1,35 @@
+[08-Apr-2025 19:27:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Session\json_decode() in /home/khilinsk/tutorial.khilinski.com/system/library/session/db.php:24
+Stack trace:
+#0 /home/khilinsk/tutorial.khilinski.com/system/library/session.php(72): Session\DB->read('fa2d9651bebae82...')
+#1 /home/khilinsk/tutorial.khilinski.com/system/framework.php(106): Session->start('fa2d9651bebae82...')
+#2 /home/khilinsk/tutorial.khilinski.com/system/startup.php(104): require_once('/home/khilinsk/...')
+#3 /home/khilinsk/tutorial.khilinski.com/admin/index.php(19): start('admin')
+#4 {main}
+  thrown in /home/khilinsk/tutorial.khilinski.com/system/library/session/db.php on line 24
+[08-Apr-2025 19:27:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Session\json_decode() in /home/khilinsk/tutorial.khilinski.com/system/library/session/db.php:24
+Stack trace:
+#0 /home/khilinsk/tutorial.khilinski.com/system/library/session.php(72): Session\DB->read('fa2d9651bebae82...')
+#1 /home/khilinsk/tutorial.khilinski.com/system/framework.php(106): Session->start('fa2d9651bebae82...')
+#2 /home/khilinsk/tutorial.khilinski.com/system/startup.php(104): require_once('/home/khilinsk/...')
+#3 /home/khilinsk/tutorial.khilinski.com/admin/index.php(19): start('admin')
+#4 {main}
+  thrown in /home/khilinsk/tutorial.khilinski.com/system/library/session/db.php on line 24
+[08-Apr-2025 19:27:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Session\json_decode() in /home/khilinsk/tutorial.khilinski.com/system/library/session/db.php:24
+Stack trace:
+#0 /home/khilinsk/tutorial.khilinski.com/system/library/session.php(72): Session\DB->read('fa2d9651bebae82...')
+#1 /home/khilinsk/tutorial.khilinski.com/system/framework.php(106): Session->start('fa2d9651bebae82...')
+#2 /home/khilinsk/tutorial.khilinski.com/system/startup.php(104): require_once('/home/khilinsk/...')
+#3 /home/khilinsk/tutorial.khilinski.com/admin/index.php(19): start('admin')
+#4 {main}
+  thrown in /home/khilinsk/tutorial.khilinski.com/system/library/session/db.php on line 24
+[09-Apr-2025 15:23:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Controllerextensionmoduleretailcrmsync' not found in /home/khilinsk/storage/modification/system/engine/action.php:71
+Stack trace:
+#0 /home/khilinsk/tutorial.khilinski.com/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#1 /home/khilinsk/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#2 /home/khilinsk/tutorial.khilinski.com/system/engine/router.php(67): Action->execute(Object(Registry))
+#3 /home/khilinsk/tutorial.khilinski.com/system/engine/router.php(56): Router->execute(Object(Action))
+#4 /home/khilinsk/tutorial.khilinski.com/system/framework.php(165): Router->dispatch(Object(Action), Object(Action))
+#5 /home/khilinsk/tutorial.khilinski.com/system/startup.php(104): require_once('/home/khilinsk/...')
+#6 /home/khilinsk/tutorial.khilinski.com/admin/index.php(20): start('admin')
+#7 {main}
+  thrown in /home/khilinsk/storage/modification/system/engine/action.php on line 71
